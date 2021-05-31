@@ -132,9 +132,8 @@ form.addEventListener('submit', e => {
 });
 
 const github_data = {
-    "token": ${{ secrets.GITHUB_TOKEN }}
+    token: ${{ secrets.GITHUB_TOKEN }}
 }
-
 const headers = {
     "Content-Type": "application/json",
     "Authorization": "Bearer " + github_data["token"]
