@@ -131,13 +131,11 @@ form.addEventListener('submit', e => {
     e.preventDefault();
 });
 
-const github_data = {
-    "token": "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"
-}
+const token = config.TOKEN;
 
 const headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer " + github_data["token"]
+    "Authorization": "Bearer " + token
 }
 
 const url = "https://api.github.com/graphql";
