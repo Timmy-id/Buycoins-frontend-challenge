@@ -132,7 +132,7 @@ form.addEventListener('submit', e => {
 });
 
 const github_data = {
-    "token": "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"
+    "token": "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"
 }
 
 const headers = {
