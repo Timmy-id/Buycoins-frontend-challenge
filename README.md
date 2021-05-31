@@ -19,14 +19,14 @@ This project was built using:
 * Fork the repo
 * Then 
   ```
-$ git clone <forked repo>
-$ cd <forked repo>
-```
+  $ git clone <forked repo>
+  $ cd <forked repo>
+  ```
 * Create a config.js file and add
   ```
-  const config = {
-    TOKEN: "<token>"
-}
+    const config = {
+      TOKEN: "<token>"
+    }
   ```
 * Then, open the index.html file in the browser
 ![App screenshot](./images/github-login.PNG)
