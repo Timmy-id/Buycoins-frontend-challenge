@@ -15,10 +15,9 @@ This project was built using:
 ## Usage
 
 * To use this, go to [https://timmy-id.github.io/Buycoins-frontend-challenge](https://timmy-id.github.io/Buycoins-frontend-challenge)
-* ![App screenshot](./images/github-login.PNG)
+![App screenshot](./images/github-login.PNG)
+![App screenshot](./images/repo-page.PNG)
 * Enter the GitHub username which then loads your repository
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 ## Contact
 
