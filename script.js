@@ -137,7 +137,7 @@ const github_data = {
 
 const headers = {
     "Content-Type": "application/json",
-    // "Authorization": "Bearer " + github_data["token"]
+    "Authorization": "Bearer " + github_data["token"],
     Accept: 'application/json'
 }
 
