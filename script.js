@@ -132,19 +132,19 @@ form.addEventListener('submit', e => {
 });
 
 const github_data = {
-    "token": "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"
+    "token": "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"
 }
 
 const headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer " + github_data["token"],
-    Accept: 'application/json'
+    "Authorization": "Bearer " + github_data["token"]
 }
 
 const url = "https://api.github.com/graphql";
 
-function getUserDetails(username) {
-    return queryFetch(`
+async function getUserDetails(username) {
+    try {
+        const data = await queryFetch(`
         query getUsername($login: String!) {
             user(login: $login) {
                 login,
@@ -165,13 +165,16 @@ function getUserDetails(username) {
                 twitterUsername,
                 websiteUrl
             }
-        }`, { login: username }).then(data => {
-            return data.data.user;
-        }).catch(err => console.log(err))
+        }`, { login: username });
+        return data.data.user;
+    } catch (err) {
+        return console.log(err);
+    }
 }
 
-function getRepoDetails(username) {
-    return queryFetch(`
+async function getRepoDetails(username) {
+    try {
+        const data = await queryFetch(`
         query getUsername($login: String!) {
             repositoryOwner(login: $login) {
                 repositories(last: 20) {
@@ -190,9 +193,11 @@ function getRepoDetails(username) {
                     }
                 }
             }
-        }`, { login: username }).then(data => {
-            return data.data.repositoryOwner.repositories;
-        }).catch(err => console.log(err))
+        }`, { login: username });
+        return data.data.repositoryOwner.repositories;
+    } catch (err) {
+        return console.log(err);
+    }
 }
 
 async function queryFetch(query, variables) {
