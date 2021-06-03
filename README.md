@@ -14,9 +14,8 @@ This project was built using:
 
 ## Usage
 
-<<<<<<< HEAD
 * To use,
-* Create a personal access token on github
+* Create a <personal access token> on github
 * Fork the repo
 * Then 
   ```
@@ -25,20 +24,15 @@ $ cd <forked repo>
 ```
 * Create a config.js file and add
   ```
-  const config = {
-    TOKEN: "<token>"
+  const github_token = {
+    "key": "<personal access token>"
 }
   ```
 * Then, open the index.html file in the browser
 ![App screenshot](./images/github-login.PNG)
-
-=======
 * To use this, go to [https://timmy-id.github.io/Buycoins-frontend-challenge](https://timmy-id.github.io/Buycoins-frontend-challenge)
-* ![App screenshot](./images/github-login.PNG)
->>>>>>> parent of 07bcf09 (modify script.js)
+![App screenshot](./images/github-login.PNG)
 * Enter the GitHub username which then loads your repository
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 ## Contact
 
