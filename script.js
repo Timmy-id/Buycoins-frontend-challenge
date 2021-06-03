@@ -131,7 +131,7 @@ form.addEventListener('submit', e => {
     e.preventDefault();
 });
 
-const token = CONFIG.token;
+const token = github_token.key;
 
 const headers = {
     "Content-Type": "application/json",
