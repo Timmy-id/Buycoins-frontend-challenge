@@ -14,32 +14,16 @@ This project was built using:
 
 ## Usage
 
-* To use,
-* Create a <personal access token> on github
-* Fork the repo
-* Then
+* To use this app, go to [https://dreamy-hodgkin-adf46a.netlify.app/](https://dreamy-hodgkin-adf46a.netlify.app/)
+
+  ![App screenshot](./images/github-login.PNG)
+
+* Then, enter the GitHub username which then loads your repository
   
-  ```
-    $ git clone <forked repo>
-    $ cd <forked repo>
-  ```
-* Create a config.js file and add
-  
-    ```
-      const github_token = {
-        "key": "<personal access token>"
-      }
-    ```
-* Then, open the index.html file in the browser
-  
-![App screenshot](./images/github-login.PNG)
-* To use this, go to [https://timmy-id.github.io/Buycoins-frontend-challenge](https://timmy-id.github.io/Buycoins-frontend-challenge)
-  
-![App screenshot](./images/repo-page.PNG)
-* Enter the GitHub username which then loads your repository
+  ![App screenshot](./images/repo-page.PNG)
 
 ## Contact
 
-Oluwatimilehin Idowu - [@timmy_id](https://twitter.com/timmy_id) - oluwatimilehin.id@gmail.com
-Live Link: [https://timmy-id.github.io/Buycoins-frontend-challenge](https://timmy-id.github.io/Buycoins-frontend-challenge)
+Oluwatimilehin Idowu - [@twitter](https://twitter.com/timmy_id) - [email](oluwatimilehin.id@gmail.com) - [LinkedIn](https://www.linkedin.com/in/oluwatimilehin-idowu/)
+Live Link: [https://dreamy-hodgkin-adf46a.netlify.app/](https://dreamy-hodgkin-adf46a.netlify.app/)
 Project Link: [https://github.com/Timmy-id/Buycoins-frontend-challenge](https://github.com/Timmy-id/Buycoins-frontend-challenge)
