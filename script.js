@@ -131,7 +131,7 @@ form.addEventListener('submit', e => {
     e.preventDefault();
 });
 
-const token = CONFIG;
+const token = CONFIG.token;
 
 const headers = {
     "Content-Type": "application/json",
