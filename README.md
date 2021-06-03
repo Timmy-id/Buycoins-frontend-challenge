@@ -25,5 +25,5 @@ This project was built using:
 ## Contact
 
 Oluwatimilehin Idowu - [@twitter](https://twitter.com/timmy_id) - [email](oluwatimilehin.id@gmail.com) - [LinkedIn](https://www.linkedin.com/in/oluwatimilehin-idowu/)
-Live Link: [https://dreamy-hodgkin-adf46a.netlify.app/](https://dreamy-hodgkin-adf46a.netlify.app/)
-Project Link: [https://github.com/Timmy-id/Buycoins-frontend-challenge](https://github.com/Timmy-id/Buycoins-frontend-challenge)
+* Live Link: [https://dreamy-hodgkin-adf46a.netlify.app/](https://dreamy-hodgkin-adf46a.netlify.app/)
+* Project Link: [https://github.com/Timmy-id/Buycoins-frontend-challenge](https://github.com/Timmy-id/Buycoins-frontend-challenge)
