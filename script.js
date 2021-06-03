@@ -1,5 +1,3 @@
-import CONFIG from './config';
-
 const header = document.getElementById('header');
 const form = document.getElementById('form');
 const loginData = document.getElementById('login');
