@@ -33,7 +33,7 @@ This project was built using:
 * Then, open the index.html file in the browser
 ![App screenshot](./images/github-login.PNG)
 * To use this, go to [https://timmy-id.github.io/Buycoins-frontend-challenge](https://timmy-id.github.io/Buycoins-frontend-challenge)
-![App screenshot](./images/github-repo.PNG)
+![App screenshot](./images/repo-page.PNG)
 * Enter the GitHub username which then loads your repository
 
 ## Contact
