@@ -1,3 +1,5 @@
+import CONFIG from './config';
+
 const header = document.getElementById('header');
 const form = document.getElementById('form');
 const loginData = document.getElementById('login');
@@ -131,7 +133,7 @@ form.addEventListener('submit', e => {
     e.preventDefault();
 });
 
-const token = config.TOKEN;
+const token = CONFIG;
 
 const headers = {
     "Content-Type": "application/json",
