@@ -17,17 +17,19 @@ This project was built using:
 * To use,
 * Create a <personal access token> on github
 * Fork the repo
-* Then 
+* Then
+  
   ```
-$ git clone <forked repo>
-$ cd <forked repo>
-```
+    $ git clone <forked repo>
+    $ cd <forked repo>
+  ```
 * Create a config.js file and add
-  ```
-  const github_token = {
-    "key": "<personal access token>"
-}
-  ```
+  
+    ```
+      const github_token = {
+        "key": "<personal access token>"
+      }
+    ```
 * Then, open the index.html file in the browser
 ![App screenshot](./images/github-login.PNG)
 * To use this, go to [https://timmy-id.github.io/Buycoins-frontend-challenge](https://timmy-id.github.io/Buycoins-frontend-challenge)
